@@ -18,10 +18,22 @@
 
     </div>
     <div class="controls">
-      <div class="sizeControl">
-        <p id="sizeLabel">3 X 3</p>
-        <input type="range" name="gridSize" id="gridSize" min="3" max="9" value="3" step="1">
+      <div class="player1">
+        <p class="player-label">Player 1</p>
+        <select name="player1-select" id="player1-select">
+          <option value="X">X</option>
+          <option value="O">O</option>
+        </select>
       </div>
+
+      <div class="player2">
+        <p class="player-label">Player 2</p>
+        <select name="player2-select" id="player2-select">
+          <option value="O">O</option>
+          <option value="X">X</option>
+        </select>
+      </div>
+
       <button id="reset">Reset</button>
     </div>
   </div>
